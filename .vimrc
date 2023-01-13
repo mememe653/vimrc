@@ -38,4 +38,5 @@ set wrap linebreak nolist "Enables soft wrapping at the edge of the screen"
 "Current line highlighting
 "https://www.twilio.com/blog/5-quality-of-life-vim-tricks-for-your-vimrc
 hi CursorLine cterm=NONE ctermbg=0
+hi CursorLineNR cterm=bold ctermbg=0
 set cursorline

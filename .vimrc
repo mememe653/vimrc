@@ -33,7 +33,9 @@ let &t_SI = "\e[6 q"
 let &t_SR = "\e[4 q"
 let &t_EI = "\e[2 q"
 
+"Line wrapping settings"
 set wrap linebreak nolist "Enables soft wrapping at the edge of the screen"
+autocmd Filetype markdown set textwidth=100
 
 "Current line highlighting
 "https://www.twilio.com/blog/5-quality-of-life-vim-tricks-for-your-vimrc

@@ -42,3 +42,5 @@ autocmd Filetype markdown set textwidth=100
 hi CursorLine cterm=NONE ctermbg=0
 hi CursorLineNR cterm=bold ctermbg=0
 set cursorline
+
+inoremap kj <esc>

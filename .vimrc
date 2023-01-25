@@ -43,6 +43,7 @@ hi CursorLine cterm=NONE ctermbg=0
 hi CursorLineNR cterm=bold ctermbg=0
 set cursorline
 
+nnoremap ; :
 inoremap kj <esc>
 
 "Automatically add closing ( { [ ' " `

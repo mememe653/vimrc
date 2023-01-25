@@ -44,3 +44,15 @@ hi CursorLineNR cterm=bold ctermbg=0
 set cursorline
 
 inoremap kj <esc>
+
+"Automatically add closing ( { [ ' " `
+inoremap {<cr> {<cr><bs>}<esc>ko
+inoremap { {}<esc>i
+inoremap ( ()<esc>i
+inoremap [ []<esc>i
+inoremap " ""<esc>i
+inoremap ' ''<esc>i
+inoremap ` ``<esc>i
+inoremap } <esc>la
+inoremap ) <esc>la
+inoremap ] <esc>la

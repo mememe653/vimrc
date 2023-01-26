@@ -24,6 +24,8 @@ set showmatch "Highlights matching parentheses"
 set ignorecase
 set smartcase
 set incsearch
+set hlsearch
+nnoremap <cr> :noh<cr>
 
 " Setting cursor shape in different modes
 " &t_SI refers to Insert mode
